@@ -1,0 +1,15 @@
+{
+    "short_name": "HOMEJEK",
+    "name": "HOMEJEK dashboard",
+    "icons": [
+        {
+            "src": "/img/logo-ct.png",
+            "type": "image/png",
+            "sizes": "200x200"
+        }
+    ],
+    "start_url": "./",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "theme_color": "#3367D6"
+}

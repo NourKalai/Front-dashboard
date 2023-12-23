@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    margin: 0;
+    background-color: #205375;
+}
+
+.container {
+    color: #EFEFEF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button,
+button:focus,
+button:active,
+button:hover {
+    appearance: none;
+    background: #112B3C;
+    color: #EFEFEF;
+    padding: 8px;
+    border: 1px solid #EFEFEF;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 100ms ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+p {
+    margin: 0;
+}
